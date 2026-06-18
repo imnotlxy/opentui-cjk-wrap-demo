@@ -1,0 +1,19 @@
+{
+  "name": "opentui-cjk-wrap-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run scripts/setup-pr1143.ts && bun run src/index.ts",
+    "setup:pr1143": "bun run scripts/setup-pr1143.ts",
+    "start": "bun run dev",
+    "check": "tsc --noEmit --noCheck"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "5.9.3"
+  }
+}
