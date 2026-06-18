@@ -2,6 +2,8 @@
 
 This demo uses a full-width, full-height multi-line `TextareaRenderable` to demonstrate CJK soft wrapping from [anomalyco/opentui#1143](https://github.com/anomalyco/opentui/pull/1143).
 
+![Screenshot](screenshot.png)
+
 ## Run
 
 ```sh
